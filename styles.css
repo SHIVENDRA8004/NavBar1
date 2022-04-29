@@ -1,0 +1,54 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: rgb(235, 193, 116);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 9%;
+}
+
+.logo{
+    height: 10em;
+    width: 10em;
+    cursor: pointer;
+}
+.links{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+}
+.links li a{
+    transition: all 0.3s ease 0s;
+}
+.links li a:hover{
+    color: #0088a9;
+}
+button{
+    font-family: 'Bebas Neue', cursive;
+    padding: 9px 25px ;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(0,136,169,1);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+a{
+    padding: 10px;
+}
